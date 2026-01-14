@@ -1,0 +1,255 @@
+.certifications {
+  min-height: 100vh;
+}
+
+.certifications-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.certifications-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.certifications-hero .hero-subtitle {
+  font-size: 1.3rem;
+  opacity: 0.95;
+}
+
+.iso-section {
+  padding: 5rem 2rem;
+  background: white;
+}
+
+.iso-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.iso-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.iso-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.iso-benefits {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.iso-benefits li {
+  padding: 0.8rem 0;
+  padding-left: 2rem;
+  position: relative;
+  color: #2c3e50;
+  font-size: 1.05rem;
+}
+
+.iso-benefits li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.iso-certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificate-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 5px solid #f8f9fa;
+}
+
+.course-certificates {
+  padding: 5rem 2rem;
+  background: #f8f9fa;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.certificate-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+}
+
+.cert-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.certificate-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.certificate-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.awards-section {
+  padding: 5rem 2rem;
+  background: white;
+}
+
+.awards-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.awards-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.award-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.award-feature {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.award-feature h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.award-feature p {
+  color: #666;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.awards-image {
+  display: flex;
+  justify-content: center;
+}
+
+.award-img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.cert-benefits {
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.benefit-item {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  position: relative;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}
+
+.benefit-number {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.benefit-item h3 {
+  font-size: 1.3rem;
+  margin: 1.5rem 0 1rem;
+  color: #2c3e50;
+}
+
+.benefit-item p {
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .certifications-hero h1 {
+    font-size: 2rem;
+  }
+
+  .iso-content,
+  .awards-content {
+    grid-template-columns: 1fr;
+  }
+
+  .certificates-grid,
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
