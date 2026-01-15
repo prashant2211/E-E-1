@@ -226,6 +226,49 @@
   background: #ffd700;
 }
 
+/* Tablet styles (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-container {
+    padding: 0 1.5rem;
+  }
+
+  .nav-menu {
+    gap: 1.2rem;
+  }
+
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .nav-link.login-btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 0.95rem;
+  }
+
+  .logo-siit {
+    font-size: 1.5rem;
+  }
+
+  .logo-name {
+    font-size: 0.95rem;
+  }
+
+  .logo-tagline {
+    font-size: 0.7rem;
+  }
+
+  .logo-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nav-logo {
+    gap: 0.8rem;
+  }
+}
+
+/* Mobile styles (max-width: 768px) */
 @media (max-width: 768px) {
   .nav-toggle {
     display: flex;
@@ -244,6 +287,7 @@
     padding: 3rem 0;
     gap: 2rem;
     backdrop-filter: blur(20px);
+    z-index: 999;
   }
 
   .nav-menu.active {
@@ -272,5 +316,9 @@
   .nav-link {
     font-size: 1.1rem;
     padding: 0.8rem 0;
+  }
+
+  .nav-container {
+    padding: 0 1.5rem;
   }
 }

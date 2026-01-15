@@ -6,6 +6,14 @@ const Home = () => {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
+        {/* Animated Background Elements */}
+        <div className="animated-shapes">
+          <div className="shape shape-1"></div>
+          <div className="shape shape-2"></div>
+          <div className="shape shape-3"></div>
+          <div className="shape shape-4"></div>
+          <div className="shape shape-5"></div>
+        </div>
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
@@ -79,6 +87,13 @@ const Home = () => {
               <Link to="/contact" className="cta-btn-secondary">Get Started</Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* SIIT Image Section */}
+      <section className="siit-image-section">
+        <div className="siit-image-wrapper">
+          <img src="/Images/siit1.png" alt="Sriyansh Institute of Information Technology" className="siit-main-image" />
         </div>
       </section>
 

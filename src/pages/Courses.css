@@ -601,6 +601,51 @@
   font-size: 1.2rem;
 }
 
+/* Tablet styles (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .courses-hero {
+    padding: 5rem 2rem;
+  }
+
+  .hero-title-animated {
+    font-size: 3rem;
+  }
+
+  .courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .category-filters {
+    gap: 0.8rem;
+  }
+
+  .filter-btn {
+    font-size: 0.95rem;
+    padding: 0.9rem 1.6rem;
+  }
+
+  .filter-section {
+    padding: 2.5rem 2rem;
+    top: 75px;
+    position: sticky;
+    z-index: 100;
+  }
+
+  .categories-overview {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .courses-cta h2 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .courses-hero {
     padding: 4rem 1.5rem;
@@ -629,6 +674,10 @@
 
   .filter-section {
     top: 70px;
+    padding: 2rem 1.5rem;
+    /* Disable sticky behaviour on mobile to avoid overlapping the course cards */
+    position: static;
+    box-shadow: none;
   }
 
   .categories-overview {

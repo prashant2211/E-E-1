@@ -237,6 +237,32 @@
   line-height: 1.6;
 }
 
+/* Tablet styles (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .certifications-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .iso-content,
+  .awards-content {
+    gap: 2rem;
+  }
+
+  .certificates-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .certifications-hero h1 {
     font-size: 2rem;

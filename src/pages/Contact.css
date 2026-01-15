@@ -192,6 +192,21 @@
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
+/* Tablet styles (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .contact-content {
+    gap: 2rem;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .contact-hero h1 {
     font-size: 2rem;

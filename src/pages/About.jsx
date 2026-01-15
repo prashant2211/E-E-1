@@ -273,7 +273,7 @@ const About = () => {
           {/* Additional Images */}
           <div className="image-detail-card reverse">
             <div className="image-detail-image">
-              <img src="/Images/WhatsApp Image 2026-01-12 at 12.58.26.jpeg" alt="Campus Activities" />
+              <img src="/Images/campus_activity.jpeg" alt="Campus Activities & Events" />
             </div>
             <div className="image-detail-content">
               <h3>Campus Activities & Events</h3>
@@ -294,7 +294,7 @@ const About = () => {
 
           <div className="image-detail-card">
             <div className="image-detail-image">
-              <img src="/Images/WhatsApp Image 2026-01-12 at 12.58.27.jpeg" alt="Student Engagement" />
+              <img src="/Images/Active_Engangment.jpeg" alt="Active Student Engagement" />
             </div>
             <div className="image-detail-content">
               <h3>Active Student Engagement</h3>
@@ -315,7 +315,7 @@ const About = () => {
 
           <div className="image-detail-card reverse">
             <div className="image-detail-image">
-              <img src="/Images/WhatsApp Image 2026-01-12 at 12.58.29.jpeg" alt="Classroom Learning" />
+              <img src="/Images/Modern_classroom.jpeg" alt="Modern Classroom Learning" />
             </div>
             <div className="image-detail-content">
               <h3>Modern Classroom Learning</h3>
@@ -336,7 +336,7 @@ const About = () => {
 
           <div className="image-detail-card">
             <div className="image-detail-image">
-              <img src="/Images/WhatsApp Image 2026-01-12 at 12.58.30.jpeg" alt="Course Information" />
+              <img src="/Images/siit course template.png" alt="Comprehensive Course Information" />
             </div>
             <div className="image-detail-content">
               <h3>Comprehensive Course Information</h3>
@@ -357,7 +357,7 @@ const About = () => {
 
           <div className="image-detail-card reverse">
             <div className="image-detail-image">
-              <img src="/Images/WhatsApp Image 2026-01-12 at 12.58.34.jpeg" alt="Lab Sessions" />
+              <img src="/Images/lab_prac.jpeg" alt="Regular Lab Practice Sessions" />
             </div>
             <div className="image-detail-content">
               <h3>Regular Lab Practice Sessions</h3>
@@ -484,7 +484,7 @@ const About = () => {
             <div className="leader-card">
               <div className="leader-icon">👔</div>
               <h3>Chairman</h3>
-              <p className="leader-name">Sashi Bhushan Kumar</p>
+              <p className="leader-name">Shashi bhushan Kumar</p>
               <p className="leader-role">Visionary Leader</p>
             </div>
             <div className="leader-card">
@@ -500,6 +500,43 @@ const About = () => {
               <h3>Principal</h3>
               <p className="leader-name">Sarika Kumari</p>
               <p className="leader-role">Academic Excellence</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Chairman Message Section */}
+      <section className="chairman-message-section">
+        <div className="container">
+          <h2 className="section-title">Chairman's Message</h2>
+          <div className="chairman-message-content">
+            <div className="chairman-image-wrapper">
+              <img src="/Images/WhatsApp Image 2026-01-12 at 12.58.34.jpeg" alt="Chairman Shashi bhushan Kumar" className="chairman-image" />
+            </div>
+            <div className="chairman-message-text">
+              <h3>Shashi bhushan Kumar</h3>
+              <p className="chairman-designation">Chairman, Sriyansh Institute of Information Technology</p>
+              <div className="message-content">
+                <p>
+                  Welcome to Sriyansh Institute of Information Technology, where excellence in computer education 
+                  meets innovation. As the Chairman, I am proud to lead an institution that is committed to 
+                  empowering students with cutting-edge knowledge and practical skills in the field of Information Technology.
+                </p>
+                <p>
+                  Our mission is to bridge the gap between theoretical knowledge and real-world application, ensuring 
+                  that every student who walks through our doors is equipped with the tools and expertise needed to 
+                  excel in today's competitive digital landscape.
+                </p>
+                <p>
+                  We believe in providing quality education that transforms lives and opens doors to endless opportunities. 
+                  With our ISO 9001:2008 certification and government recognition, we maintain the highest standards 
+                  of education and training.
+                </p>
+                <p>
+                  I invite you to join us on this journey of learning, growth, and success. Together, we can build 
+                  a brighter future in the world of technology.
+                </p>
+              </div>
             </div>
           </div>
         </div>

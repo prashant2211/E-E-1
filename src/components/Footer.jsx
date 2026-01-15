@@ -30,25 +30,28 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Contact Info</h4>
             <div className="contact-info">
-              <p><strong>Phone:</strong> 9470253742</p>
-              <p><strong>Address:</strong></p>
-              <p className="address">
-                Village + Post- Warispur,<br />
-                Near Ranjeet Singh dhawa,<br />
-                Bhagwanpur, Vaishali Bihar,<br />
-                844114
-              </p>
+              <div className="contact-item">
+                <span className="contact-icon">📞</span>
+                <div>
+                  <strong>Phone:</strong>
+                  <a href="tel:9470253742"> 9470253742</a>
+                </div>
+              </div>
+              <div className="contact-item">
+                <span className="contact-icon">📍</span>
+                <div>
+                  <strong>Address:</strong>
+                  <p className="address">
+                    Village + Post- Warispur,<br />
+                    Near Ranjeet Singh dhawa,<br />
+                    Bhagwanpur, Vaishali Bihar,<br />
+                    844114
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="footer-section">
-            <h4>Leadership</h4>
-            <div className="leadership-info">
-              <p><strong>Chairman:</strong> Sashi Bhushan Kumar</p>
-              <p><strong>Secretary:</strong> Subodh Sharma</p>
-              <p><strong>Principal:</strong> Sarika Kumari</p>
-            </div>
-          </div>
         </div>
 
         <div className="footer-bottom">
