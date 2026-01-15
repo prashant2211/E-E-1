@@ -109,12 +109,16 @@
   color: #2c3e50;
   margin-bottom: 1rem;
   font-weight: 900;
+  line-height: 1.3;
+  word-wrap: break-word;
 }
 
 .institute-tagline {
   font-size: 1.3rem;
   color: #667eea;
   font-weight: 600;
+  line-height: 1.5;
+  word-wrap: break-word;
   font-style: italic;
 }
 
@@ -132,6 +136,9 @@
   background: #f8f9fa;
   border-radius: 15px;
   transition: all 0.3s ease;
+  min-width: 0;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .detail-item:hover {
@@ -148,6 +155,9 @@
 
 .detail-item div {
   flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .detail-item strong {
@@ -174,6 +184,15 @@
   display: block;
   font-size: 1.1rem;
   font-weight: 600;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.detail-item a {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  display: inline-block;
 }
 
 .mission-section {
@@ -823,6 +842,14 @@
     gap: 3rem;
   }
 
+  .institute-header h2 {
+    font-size: 2rem;
+  }
+
+  .institute-tagline {
+    font-size: 1.1rem;
+  }
+
   .container {
     padding: 0 2rem;
   }
@@ -846,8 +873,65 @@
     font-size: 2rem;
   }
 
+  .institute-info-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .institute-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .institute-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .institute-header h2 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  .institute-tagline {
+    font-size: 1rem;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+
   .institute-details {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .detail-item {
+    padding: 1rem;
+    gap: 0.8rem;
+    min-width: 0;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+
+  .detail-item div {
+    min-width: 0;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .detail-item strong {
+    font-size: 0.85rem;
+    word-break: break-word;
+  }
+
+  .detail-item span,
+  .detail-item a {
+    font-size: 0.95rem;
+    word-break: break-word;
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  .detail-icon {
+    font-size: 1.5rem;
   }
 
   .affiliations-grid,
