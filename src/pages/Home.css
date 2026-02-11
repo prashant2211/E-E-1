@@ -2127,6 +2127,73 @@
     padding: 1rem 2rem;
     font-size: 1rem;
   }
+
+  /* Consultancy section mobile adjustments */
+  .consultancy-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .consultancy-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .consultancy-text,
+  .consultancy-highlight-card {
+    padding: 2rem 1.6rem;
+  }
+
+  .consultancy-title {
+    font-size: 1.8rem;
+  }
+
+  .consultancy-highlight-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+
+  .consultancy-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .consultancy-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Fullscreen facility & ANM sections mobile adjustments */
+  .fullscreen-facility-section,
+  .fullscreen-course-section {
+    min-height: auto;
+    padding: 3rem 1.5rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .fullscreen-image-wrapper {
+    min-height: auto;
+    height: auto;
+  }
+
+  .facility-image-wrapper,
+  .anm-image-wrapper {
+    flex: 0 0 auto;
+  }
+
+  .fullscreen-image {
+    max-height: 260px;
+  }
+
+  .facility-content,
+  .anm-content {
+    max-width: 100%;
+  }
+
+  .facility-title,
+  .anm-title {
+    font-size: 1.8rem;
+  }
 }
 
 /* Extra small devices - ensure single column layout */
