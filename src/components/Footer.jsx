@@ -34,7 +34,11 @@ const Footer = () => {
                 <span className="contact-icon">📞</span>
                 <div>
                   <strong>Phone:</strong>
-                  <a href="tel:9470253742"> 9470253742</a>
+                  <div className="phone-numbers">
+                    <a href="tel:9572420157">9572420157</a>
+                    <span> / </span>
+                    <a href="tel:9470253742">9470253742</a>
+                  </div>
                 </div>
               </div>
               <div className="contact-item">

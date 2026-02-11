@@ -21,8 +21,9 @@ const Home = () => {
             </h1>
             <p className="hero-subtitle">of Information Technology</p>
             <p className="hero-description">
-              Empowering the next generation with cutting-edge computer education 
-              and professional training. Your journey to excellence starts here.
+              Empowering the next generation with cutting-edge computer education, professional training,
+              and dedicated career & education consultancy. Your journey to excellence starts here with
+              the right course, right guidance, and right career plan.
             </p>
             <div className="hero-buttons">
               <Link to="/courses" className="btn btn-primary">Explore Courses</Link>
@@ -50,7 +51,8 @@ const Home = () => {
             </h2>
             <p className="cta-main-description">
               Join 1000+ successful students who have built their future with SIIT. 
-              Start your journey towards excellence in Information Technology today.
+              Start your journey towards excellence in Information Technology today and
+              get expert counselling to choose the perfect course and career path for you.
             </p>
             <div className="cta-stats-grid">
               <div className="cta-stat-card">
@@ -90,10 +92,208 @@ const Home = () => {
         </div>
       </section>
 
+      
+
+      {/* Admissions Open Section */}
+      <section className="admission-open-section">
+        <div className="admission-bg" aria-hidden="true"></div>
+        <div className="container">
+          <div className="admission-grid">
+            <div className="admission-media">
+              <div className="admission-media-badge">Admissions Open</div>
+              <img
+                src="/Images/WhatsApp Image 2026-01-16 at 16.17.46.jpeg"
+                alt="Admissions at Sriyansh Institute"
+                className="admission-img"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="admission-content">
+              <div className="admission-badge">Limited Seats • New Batches</div>
+              <h2 className="admission-title">
+                Admissions Open for <span className="admission-highlight">New Batches</span>
+              </h2>
+              <p className="admission-subtitle">
+                Start your journey with SIIT and gain real, job-ready skills through hands-on training,
+                modern labs, and industry-relevant courses.
+              </p>
+
+              <div className="admission-points">
+                <div className="admission-point">
+                  <span className="admission-point-icon">✅</span>
+                  <span>ISO Certified & Government Recognized Programs</span>
+                </div>
+                <div className="admission-point">
+                  <span className="admission-point-icon">💻</span>
+                  <span>Practical Training + Regular Lab Practice Sessions</span>
+                </div>
+                <div className="admission-point">
+                  <span className="admission-point-icon">🎯</span>
+                  <span>Career Guidance & Skill-Based Learning</span>
+                </div>
+              </div>
+
+              <div className="admission-actions">
+                <Link to="/contact" className="admission-btn admission-btn-primary">
+                  Enquire Now
+                </Link>
+                <Link to="/courses" className="admission-btn admission-btn-secondary">
+                  View Courses
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Career & Education Consultancy Section */}
+      <section className="consultancy-section">
+        <div className="container">
+          <div className="consultancy-grid">
+            <div className="consultancy-text">
+              <span className="consultancy-badge">Career & Education Consultancy</span>
+              <h2 className="consultancy-title">
+                Confused about which course or career to choose?
+              </h2>
+              <p className="consultancy-description">
+                Our experienced counsellors help students and parents understand all available options
+                after 10th, 12th and Graduation – from computer courses to ANM/GNM, degree programs,
+                professional courses and more – so you can take the right decision with confidence.
+              </p>
+              <div className="consultancy-points">
+                <div className="consultancy-point">
+                  <span className="consultancy-icon">🧭</span>
+                  <span>Personalised counselling based on interest, ability and budget</span>
+                </div>
+                <div className="consultancy-point">
+                  <span className="consultancy-icon">🎓</span>
+                  <span>Guidance for computer, nursing, management and university courses</span>
+                </div>
+                <div className="consultancy-point">
+                  <span className="consultancy-icon">📄</span>
+                  <span>Support for admission process, documents and course selection</span>
+                </div>
+              </div>
+              <div className="consultancy-actions">
+                <Link to="/contact" className="consultancy-btn primary">
+                  Book Free Counselling
+                </Link>
+                <a href="tel:9572420157" className="consultancy-btn secondary">
+                  Call Counsellor
+                </a>
+              </div>
+            </div>
+
+            <div className="consultancy-highlight-card">
+              <div className="consultancy-highlight-header">
+                <span className="highlight-icon">💡</span>
+                <h3>Get a Clear Career Roadmap</h3>
+              </div>
+              <p>
+                In one detailed session, we help you understand suitable courses, future scope,
+                fees, duration and career opportunities – so that every step in your education
+                journey is planned.
+              </p>
+              <div className="consultancy-highlight-stats">
+                <div className="consultancy-stat">
+                  <span className="stat-number">1000+</span>
+                  <span className="stat-label">Students Guided</span>
+                </div>
+                <div className="consultancy-stat">
+                  <span className="stat-number">25+</span>
+                  <span className="stat-label">Career Paths</span>
+                </div>
+                <div className="consultancy-stat">
+                  <span className="stat-number">1:1</span>
+                  <span className="stat-label">Personal Sessions</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SIIT Image Section */}
       <section className="siit-image-section">
         <div className="siit-image-wrapper">
           <img src="/Images/siit1.png" alt="Sriyansh Institute of Information Technology" className="siit-main-image" />
+        </div>
+      </section>
+
+      {/* Full Screen Campus Images */}
+      <section className="campus-fullscreen-gallery">
+        <div className="fullscreen-facility-section">
+          <div className="fullscreen-image-wrapper facility-image-wrapper">
+            <img
+              src="/Images/HinTem.jpeg"
+              alt="Peaceful environment around Sriyansh Institute"
+              className="fullscreen-image"
+              loading="lazy"
+            />
+          </div>
+          <div className="facility-content">
+            <h2 className="facility-title">
+              अनुभवी काउंसलर्स के साथ<br />अपने भविष्य का सही चुनाव करें
+            </h2>
+            <p className="facility-description">
+              सही करियर चुनना जीवन का सबसे महत्वपूर्ण निर्णयों में से एक है।
+              हमारे अनुभवी करियर काउंसलर्स आपको आपकी रुचि, योग्यता और लक्ष्य के अनुसार
+              उपयुक्त कोर्स और करियर पथ चुनने में व्यक्तिगत मार्गदर्शन देते हैं।
+            </p>
+            <p className="facility-description secondary">
+              10वीं, 12वीं और ग्रेजुएशन के बाद क्या करें? सरकारी और प्राइवेट दोनों सेक्टर में
+              बेहतर अवसरों की जानकारी अब एक ही जगह पर।
+            </p>
+
+            <div className="facility-courses">
+              <h3>उपलब्ध पाठ्यक्रम</h3>
+              <div className="facility-courses-grid">
+                <span className="course-pill">PGDCA</span>
+                <span className="course-pill">BBA / MBA</span>
+                <span className="course-pill">ANM / GNM</span>
+                <span className="course-pill">BLIS / MLIS</span>
+                <span className="course-pill">BA / MA</span>
+                <span className="course-pill">BCA / MCA</span>
+                <span className="course-pill">ITI Courses</span>
+                <span className="course-pill">DAPRI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="fullscreen-course-section">
+          <div className="fullscreen-image-wrapper anm-image-wrapper">
+            <img
+              src="/Images/WhatsApp Image 2026-01-24 at 19.48.01.jpeg"
+              alt="ANM course practical training"
+              className="fullscreen-image"
+              loading="lazy"
+            />
+          </div>
+          <div className="anm-content">
+            <h2 className="anm-title">
+              ANM (Auxiliary Nurse Midwifery)<br />कोर्स क्यों करें?
+            </h2>
+            <p className="anm-description">
+              स्वास्थ्य सेवा क्षेत्र में करियर बनाना चाहने वाली बेटियों के लिए ANM एक बेहतरीन कोर्स है।
+              इस कोर्स के बाद आप अस्पताल, नर्सिंग होम, क्लीनिक, हेल्थ सेंटर और सरकारी योजनाओं में
+              सम्मानजनक व सुरक्षित करियर बना सकती हैं।
+            </p>
+            <p className="anm-description secondary">
+              ANM के माध्यम से आप समाज की सेवा करते हुए आर्थिक रूप से आत्मनिर्भर बन सकती हैं और
+              भविष्य में GNM, B.Sc Nursing जैसे उच्च स्तरीय कोर्सेस के लिए भी अपना मार्ग तैयार कर सकती हैं।
+            </p>
+            <div className="anm-benefits">
+              <h3>ANM कोर्स के प्रमुख लाभ</h3>
+              <div className="anm-benefits-grid">
+                <span className="benefit-pill">सरकारी व प्राइवेट जॉब के अवसर</span>
+                <span className="benefit-pill">ग्रामीण व शहरी दोनों क्षेत्रों में उच्च मांग</span>
+                <span className="benefit-pill">मातृ एवं शिशु स्वास्थ्य में विशेष योगदान</span>
+                <span className="benefit-pill">कम अवधि में प्रोफेशनल करियर की शुरुआत</span>
+                <span className="benefit-pill">आगे नर्सिंग के उच्च कोर्सेस के लिए मजबूत आधार</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -164,6 +364,11 @@ const Home = () => {
               <div className="feature-icon">⭐</div>
               <h3>ISO Certified</h3>
               <p>Quality education standards maintained</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">🧭</div>
+              <h3>Career & Education Consultancy</h3>
+              <p>Personalised counselling to select the right course, university and long-term career path</p>
             </div>
           </div>
         </div>
